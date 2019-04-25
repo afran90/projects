@@ -1,0 +1,61 @@
+﻿@model IEnumerable<LMS.Models.BookIssue2>
+
+@{
+    ViewBag.Title = "orderlist";
+}
+
+<h2>orderlist</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Senrollment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Book_isbn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.issue_date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Return_date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Susername)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.is_book_return)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Senrollment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book_isbn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.issue_date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Return_date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Susername)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.is_book_return)
+        </td>
+        <td>
+            
+            @Html.ActionLink("Details", "Details", new { id=item.lid }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.lid })
+        </td>
+    </tr>
+}
+
+</table>

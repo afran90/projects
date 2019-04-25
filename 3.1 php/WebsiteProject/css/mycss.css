@@ -1,0 +1,191 @@
+.header
+{
+  background: black;
+  width: 100%;
+  padding: 15px;
+  padding-right: 0px; 
+}
+
+.container
+{
+
+}
+
+.footer
+{
+ background: url("../images/c.jpg");	
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.secondlast
+{
+  background: url("../images/e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.emptydiv
+{
+ height: 25px;
+}
+.sitename
+{
+  text-align: left;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  color: red;
+}
+
+.bottomtext
+{
+ color: white;
+}
+
+
+
+.sitename:hover, .sitename:focus
+{
+  text-decoration: none;
+  color: #DC4727; <!-- lighter red  -->
+}
+
+.navoptions
+{
+  text-align: center;
+  font-weight: bold;
+  top: 0;
+  display: inline block;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.products
+{
+  width: 100%; 
+  background: black;
+}
+
+.productimage
+{
+  width: 99%;
+  height: 70%; 
+}
+
+.productimage
+{
+  width: 99%;
+  height: 60%; 
+}
+
+
+.p
+{
+  background: black;
+  text-align: center;
+  padding: 15px; 
+  color: white;
+}
+
+.q
+{
+  text-align: center;
+  padding: 15px; 
+}
+
+
+
+ .line{
+	width: 112px;
+	height: 1px;
+}
+
+.navtext
+{
+  color: white;
+  padding-right: 15px;  
+}
+
+.navtext:hover, .navtext:focus, .whitetext:hover, .whitetext:focus, .bottomtext:hover
+{
+  text-decoration: none;
+  color: orange;
+}
+
+.ban
+{
+  width: 100%;
+}
+
+.banner
+{
+  background: url("../images/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  size: 100%;
+  padding: 100px;
+  width: 100%;
+  text-align: center; 
+  color: white;  
+}
+
+@font-face
+{
+ font-family: Pacifico;
+ src: url(fonts/Pacifico.tff);
+}
+
+.boldfont
+{
+ font-weight: bold;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.left
+{
+  text-align: left;
+  color: #171515;
+}
+
+.right
+{
+  float: right;
+  padding-right: 15px;  
+  text-align: right;
+}
+
+.btnx
+{
+  background-color: red;
+}
+
+.btnx:hover, btn:focus, btn:
+{
+  background-color: orange;
+  outline: 0;
+  box-shadow: none;
+}
+
+
+.whitetext
+{
+  color: white;
+}
+
+.padleft
+{
+  padding-left: 240px;
+}
+
+

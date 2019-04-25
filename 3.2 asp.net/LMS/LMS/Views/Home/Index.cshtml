@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-8 col-xs-4 mid head">
+            Login 
+        </div>
+        <div class="col-lg-12 col-md-8 col-xs-4 mid but">
+            
+            <div>
+                @Html.ActionLink("LIBRARIAN", "Login","Users")
+            </div>
+            <div>
+                @Html.ActionLink("STUDENT", "Login","Students")
+            </div>
+           
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+
+Project Title :	Messenger
+
+Abstract :	
+This is mainly a chating application . between two people.
+
+Project Type : Messenger
+
+Technology :	server socket,java,netbeans

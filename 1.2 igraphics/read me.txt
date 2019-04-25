@@ -1,0 +1,9 @@
+
+Project Title :	bubble Shot
+
+Abstract :	
+this is a shoting game where gamer needs to hit the ballons to get point,more point more faster the ballon will move,some special ballon will give bonus point and some will take points from the gamer more then 3 hit miss will cause game over. 
+
+Project Type : Game.
+
+Technology :	igraphics.
